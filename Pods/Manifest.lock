@@ -1,0 +1,16 @@
+PODS:
+  - TVAlert (1.0.0)
+
+DEPENDENCIES:
+  - TVAlert
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - TVAlert
+
+SPEC CHECKSUMS:
+  TVAlert: c81d47d938274ee7bb08b70f3da0f4dab3d0d7b3
+
+PODFILE CHECKSUM: 9f330b811483f68a19f4a35c87726a728e4acbd9
+
+COCOAPODS: 1.5.0

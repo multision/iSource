@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iSource.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>252595F121DB03BB6A183F6741AB1CE8804392B5</string>
+				<key>dateExpires</key>
+				<string>6/16/19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>252595F121DB03BB6A183F6741AB1CE8804392B5</string>
+						<key>dateExpires</key>
+						<string>6/16/19</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>TVAlert.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>PW6F3A7VY7</string>
+						<key>name</key>
+						<string>Claire Wilson</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>PW6F3A7VY7.pro.wteam.iSource</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>PW6F3A7VY7</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>PW6F3A7VY7.pro.wteam.iSource</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>iSource.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>6a97a0a7-78df-497a-adfe-a4238ee4ee36</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: pro.wteam.iSource</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>PW6F3A7VY7</string>
+				<key>name</key>
+				<string>Claire Wilson</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

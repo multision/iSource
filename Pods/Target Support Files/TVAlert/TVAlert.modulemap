@@ -1,0 +1,6 @@
+framework module TVAlert {
+  umbrella header "TVAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

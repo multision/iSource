@@ -1,0 +1,916 @@
+2018-06-17 22:15:54 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fe8489aa280; archive(resolved)='<IDEArchive: 0x7fe850817780>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team(resolved)='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fe8489aa280; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fe85146c1c0; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe851479090; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe8520888d0; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe849746490; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe8465449a0; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe84eb72210; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe846e31260; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe84882b200; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='<IDEProvisioningBasicTeam 0x7fe85102c090: teamID: PW6F3A7VY7, teamName: Claire Wilson>'>
+	<IDEDistributionContext: 0x7fe84ea2ddc0; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='<IDEDistributionMethodiOSAppStoreExport: 0x7fe8513fbdf0>', team='(null)'>
+	<IDEDistributionContext: 0x7fe849b3bf50; archive = '<IDEArchive: 0x7fe850817780>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fe8489aa280>
+2018-06-17 22:15:54 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-06-17 22:15:54 +0000  Processing step: IDEDistributionCopyItemStep
+2018-06-17 22:15:54 +0000  Running /usr/bin/ditto '-V' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app'
+2018-06-17 22:15:54 +0000  >>> Copying /Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app 
+2018-06-17 22:15:54 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-06-17 22:15:54 +0000  16205 bytes for ./_CodeSignature/CodeResources
+2018-06-17 22:15:54 +0000  copying file ./AppIcon20x20@2x.png ... 
+2608 bytes for ./AppIcon20x20@2x.png
+copying file ./AppIcon20x20@2x~ipad.png ... 
+2018-06-17 22:15:54 +0000  2608 bytes for ./AppIcon20x20@2x~ipad.png
+copying file ./AppIcon20x20@3x.png ... 
+4421 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon20x20~ipad.png ... 
+1068 bytes for ./AppIcon20x20~ipad.png
+copying file ./AppIcon29x29@2x.png ... 
+4246 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon29x29@2x~ipad.png ... 
+2018-06-17 22:15:54 +0000  4246 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon29x29@3x.png ... 
+8228 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon29x29~ipad.png ... 
+1647 bytes for ./AppIcon29x29~ipad.png
+copying file ./AppIcon40x40@2x.png ... 
+2018-06-17 22:15:54 +0000  7148 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2018-06-17 22:15:54 +0000  7148 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon40x40@3x.png ... 
+13040 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon40x40~ipad.png ... 
+2608 bytes for ./AppIcon40x40~ipad.png
+copying file ./AppIcon60x60@2x.png ... 
+13040 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon60x60@3x.png ... 
+25892 bytes for ./AppIcon60x60@3x.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2018-06-17 22:15:55 +0000  19574 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./AppIcon76x76~ipad.png ... 
+6587 bytes for ./AppIcon76x76~ipad.png
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2018-06-17 22:15:55 +0000  22849 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+copying file ./archived-expanded-entitlements.xcent ... 
+372 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2018-06-17 22:15:55 +0000  817448 bytes for ./Assets.car
+2018-06-17 22:15:55 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+3168 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-06-17 22:15:55 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/Main.storyboardc/75W-GM-bdw-view-J41-02-ixP.nib ... 
+15190 bytes for ./Base.lproj/Main.storyboardc/75W-GM-bdw-view-J41-02-ixP.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+349 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+copying file ./Base.lproj/Main.storyboardc/UITabBarController-xD0-P1-9XN.nib ... 
+2018-06-17 22:15:55 +0000  3189 bytes for ./Base.lproj/Main.storyboardc/UITabBarController-xD0-P1-9XN.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-w7q-Ob-qK2.nib ... 
+984 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-w7q-Ob-qK2.nib
+copying file ./Base.lproj/Main.storyboardc/w7q-Ob-qK2-view-0XG-KN-FMS.nib ... 
+8006 bytes for ./Base.lproj/Main.storyboardc/w7q-Ob-qK2-view-0XG-KN-FMS.nib
+copying file ./embedded.mobileprovision ... 
+13930 bytes for ./embedded.mobileprovision
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-06-17 22:15:57 +0000  68838896 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-06-17 22:15:57 +0000  257648 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+1268800 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+258224 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+599232 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2440688 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-06-17 22:15:58 +0000  27746432 bytes for ./Frameworks/libswiftFoundation.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-06-17 22:15:58 +0000  399328 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+505744 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+446352 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+310928 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+789136 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/TVAlert.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/TVAlert.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/TVAlert.framework/Info.plist ... 
+737 bytes for ./Frameworks/TVAlert.framework/Info.plist
+copying file ./Frameworks/TVAlert.framework/TVAlert ... 
+1455872 bytes for ./Frameworks/TVAlert.framework/TVAlert
+copying file ./Info.plist ... 
+1657 bytes for ./Info.plist
+copying file ./iSource ... 
+936352 bytes for ./iSource
+copying file ./PkgInfo ... 
+2018-06-17 22:15:58 +0000  /usr/bin/ditto exited with 0
+2018-06-17 22:15:58 +0000  8 bytes for ./PkgInfo
+2018-06-17 22:15:58 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe850c6f060 'org.cocoapods.TVAlert' '<DVTFilePath:0x7fe851784600:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/TVAlert.framework'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe85158ee20 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe84ffab8f0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCore.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe8510f4080 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe8495bf430:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe848994900 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe84893c8a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe8511b01e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe850d0e5a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe84ebb2e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe84987ab20:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe846e84b60 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe84984e150:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe84fb3da80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe84ef1a440:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe849866dc0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe84fe745e0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftMetal.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe84fd19de0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe8512da420:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe849b245e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe846fb4720:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe84a7e81f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe85115d2d0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-06-17 22:15:59 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fe84fe15e90 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe84897c7b0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftos.dylib'>'>
+2018-06-17 22:15:59 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-06-17 22:15:59 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-06-17 22:16:00 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-06-17 22:16:00 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-06-17 22:16:00 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-06-17 22:16:00 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-06-17 22:16:01 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-06-17 22:16:01 +0000  Running /usr/bin/ditto '-V' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/37AE62B6-761A-326E-AB25-FD6930159C6C.bcsymbolmap' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/BCSymbolMaps/37AE62B6-761A-326E-AB25-FD6930159C6C.bcsymbolmap'
+2018-06-17 22:16:02 +0000  >>> Copying /Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/37AE62B6-761A-326E-AB25-FD6930159C6C.bcsymbolmap 
+2018-06-17 22:16:02 +0000  copying file ./37AE62B6-761A-326E-AB25-FD6930159C6C.bcsymbolmap ... 
+2018-06-17 22:16:02 +0000  /usr/bin/ditto exited with 0
+2018-06-17 22:16:02 +0000  Running /usr/bin/ditto '-V' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/985920A5-DB1F-3207-8DAA-7B7561AA1403.bcsymbolmap' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/BCSymbolMaps/985920A5-DB1F-3207-8DAA-7B7561AA1403.bcsymbolmap'
+2018-06-17 22:16:02 +0000  >>> Copying /Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/985920A5-DB1F-3207-8DAA-7B7561AA1403.bcsymbolmap 
+2018-06-17 22:16:02 +0000  /usr/bin/ditto exited with 0
+2018-06-17 22:16:02 +0000  copying file ./985920A5-DB1F-3207-8DAA-7B7561AA1403.bcsymbolmap ... 
+78207 bytes for ./985920A5-DB1F-3207-8DAA-7B7561AA1403.bcsymbolmap
+2018-06-17 22:16:02 +0000  Running /usr/bin/ditto '-V' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/C630FC67-A036-3761-B22C-9201607ADE18.bcsymbolmap' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/BCSymbolMaps/C630FC67-A036-3761-B22C-9201607ADE18.bcsymbolmap'
+2018-06-17 22:16:02 +0000  >>> Copying /Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/C630FC67-A036-3761-B22C-9201607ADE18.bcsymbolmap 
+2018-06-17 22:16:02 +0000  copying file ./C630FC67-A036-3761-B22C-9201607ADE18.bcsymbolmap ... 
+2018-06-17 22:16:03 +0000  50907 bytes for ./C630FC67-A036-3761-B22C-9201607ADE18.bcsymbolmap
+2018-06-17 22:16:03 +0000  /usr/bin/ditto exited with 0
+2018-06-17 22:16:03 +0000  Running /usr/bin/ditto '-V' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/D231B227-2DF7-3D8C-A4FE-F9DC7E6913B9.bcsymbolmap' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/BCSymbolMaps/D231B227-2DF7-3D8C-A4FE-F9DC7E6913B9.bcsymbolmap'
+2018-06-17 22:16:03 +0000  >>> Copying /Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/BCSymbolMaps/D231B227-2DF7-3D8C-A4FE-F9DC7E6913B9.bcsymbolmap 
+copying file ./D231B227-2DF7-3D8C-A4FE-F9DC7E6913B9.bcsymbolmap ... 
+2018-06-17 22:16:03 +0000  50888 bytes for ./D231B227-2DF7-3D8C-A4FE-F9DC7E6913B9.bcsymbolmap
+2018-06-17 22:16:03 +0000  /usr/bin/ditto exited with 0
+2018-06-17 22:16:03 +0000  Processing step: IDEDistributionSymbolsStep
+2018-06-17 22:16:03 +0000  Excluding symbols for TVAlert.framework
+2018-06-17 22:16:03 +0000  Processing symbols for libswiftCore.dylib
+2018-06-17 22:16:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:03 +0000  building file list ... 
+2018-06-17 22:16:03 +0000   0 files...2018-06-17 22:16:03 +0000  1 file to consider
+2018-06-17 22:16:03 +0000  
+2018-06-17 22:16:03 +0000  /usr/bin/rsync exited with 02018-06-17 22:16:03 +0000  sent 89 bytes  received 20 bytes  218.00 bytes/sec
+total size is 65.65M  speedup is 631549.50
+
+2018-06-17 22:16:03 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:03 +0000  building file list ... 
+2018-06-17 22:16:03 +0000   0 files...2018-06-17 22:16:03 +0000  13 files to consider
+2018-06-17 22:16:03 +0000  ./
+2018-06-17 22:16:03 +0000  TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+2018-06-17 22:16:03 +0000  iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:03 +0000  
+2018-06-17 22:16:03 +0000  sent 424 bytes  received 74 bytes  996.00 bytes/sec
+total size is 2.72M  speedup is 5721.19
+2018-06-17 22:16:03 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCore.dylib'
+2018-06-17 22:16:07 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCore.dylib [armv7, 1.124430 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCore.dylib [armv7s, 1.124430 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCore.dylib [arm64, 1.124430 seconds]:
+2018-06-17 22:16:07 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:07 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-06-17 22:16:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:07 +0000  building file list ... 
+2018-06-17 22:16:07 +0000  /usr/bin/rsync exited with 02018-06-17 22:16:07 +0000   0 files...1 file to consider
+
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 251.61K  speedup is 2165.11
+
+2018-06-17 22:16:07 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:07 +0000  building file list ... 
+2018-06-17 22:16:07 +0000   0 files...13 files to consider
+2018-06-17 22:16:07 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:08 +0000  
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  sent 448 bytes  received 98 bytes  364.00 bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreFoundation.dylib'
+2018-06-17 22:16:08 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreFoundation.dylib [armv7, 0.001824 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreFoundation.dylib [armv7s, 0.001824 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreFoundation.dylib [arm64, 0.001824 seconds]:
+2018-06-17 22:16:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:08 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  1 file to consider
+2018-06-17 22:16:08 +0000  
+2018-06-17 22:16:08 +0000  sent 97 bytes  received 20 bytes  234.00 bytes/sec
+total size is 1.21M  speedup is 10844.44
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+ 0 files...2018-06-17 22:16:08 +0000  13 files to consider
+2018-06-17 22:16:08 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:08 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreGraphics.dylib'
+2018-06-17 22:16:08 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreGraphics.dylib [armv7, 0.011913 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreGraphics.dylib [armv7s, 0.011913 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreGraphics.dylib [arm64, 0.011913 seconds]:
+2018-06-17 22:16:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:08 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  1 file to consider
+2018-06-17 22:16:08 +0000  
+sent 94 bytes  received 20 bytes  228.00 bytes/sec
+total size is 252.17K  speedup is 2265.12
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  13 files to consider
+2018-06-17 22:16:08 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:08 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreImage.dylib'
+2018-06-17 22:16:08 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreImage.dylib [armv7, 0.001689 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreImage.dylib [armv7s, 0.001689 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftCoreImage.dylib [arm64, 0.001689 seconds]:
+2018-06-17 22:16:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:08 +0000  Processing symbols for libswiftDarwin.dylib
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  1 file to consider
+2018-06-17 22:16:08 +0000  
+sent 91 bytes  received 20 bytes  222.00 bytes/sec
+total size is 585.19K  speedup is 5398.49
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  13 files to consider
+2018-06-17 22:16:08 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+2018-06-17 22:16:08 +0000  TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:08 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDarwin.dylib'
+2018-06-17 22:16:08 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDarwin.dylib [armv7, 0.006004 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDarwin.dylib [armv7s, 0.006004 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDarwin.dylib [arm64, 0.006004 seconds]:
+2018-06-17 22:16:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:08 +0000  Processing symbols for libswiftDispatch.dylib
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  1 file to consider
+2018-06-17 22:16:08 +0000  
+sent 93 bytes  received 20 bytes  226.00 bytes/sec
+total size is 2.33M  speedup is 21599.01
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  13 files to consider
+2018-06-17 22:16:08 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:08 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDispatch.dylib'
+2018-06-17 22:16:08 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDispatch.dylib [armv7, 0.027268 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDispatch.dylib [armv7s, 0.027268 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftDispatch.dylib [arm64, 0.027268 seconds]:
+2018-06-17 22:16:08 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:08 +0000  Processing symbols for libswiftFoundation.dylib
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  1 file to consider
+2018-06-17 22:16:08 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 26.46M  speedup is 241273.32
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:08 +0000  building file list ... 
+2018-06-17 22:16:08 +0000   0 files...2018-06-17 22:16:08 +0000  13 files to consider
+2018-06-17 22:16:08 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:08 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:08 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:08 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftFoundation.dylib'
+2018-06-17 22:16:09 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftFoundation.dylib [armv7, 0.202986 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftFoundation.dylib [armv7s, 0.202986 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftFoundation.dylib [arm64, 0.202986 seconds]:
+2018-06-17 22:16:09 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:09 +0000  Processing symbols for libswiftMetal.dylib
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+2018-06-17 22:16:09 +0000   0 files...2018-06-17 22:16:09 +0000  1 file to consider
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000  
+sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 389.97K  speedup is 3630.25
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+2018-06-17 22:16:09 +0000   0 files...2018-06-17 22:16:09 +0000  13 files to consider
+2018-06-17 22:16:09 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:09 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftMetal.dylib'
+2018-06-17 22:16:09 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftMetal.dylib [armv7, 0.005203 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftMetal.dylib [armv7s, 0.005203 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftMetal.dylib [arm64, 0.005203 seconds]:
+2018-06-17 22:16:09 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:09 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+2018-06-17 22:16:09 +0000   0 files...2018-06-17 22:16:09 +0000  1 file to consider
+2018-06-17 22:16:09 +0000  
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 493.89K  speedup is 4397.77
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+ 0 files...2018-06-17 22:16:09 +0000  13 files to consider
+2018-06-17 22:16:09 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:09 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftObjectiveC.dylib'
+2018-06-17 22:16:09 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftObjectiveC.dylib [armv7, 0.004387 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftObjectiveC.dylib [armv7s, 0.004387 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftObjectiveC.dylib [arm64, 0.004387 seconds]:
+2018-06-17 22:16:09 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:09 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000   0 files...1 file to consider
+
+sent 95 bytes  received 20 bytes  230.00 bytes/sec
+total size is 303.64K  speedup is 2703.72
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+2018-06-17 22:16:09 +0000   0 files...2018-06-17 22:16:09 +0000  13 files to consider
+./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:09 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftQuartzCore.dylib'
+2018-06-17 22:16:09 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftQuartzCore.dylib [armv7, 0.002514 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftQuartzCore.dylib [armv7s, 0.002514 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftQuartzCore.dylib [arm64, 0.002514 seconds]:
+2018-06-17 22:16:09 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:09 +0000  Processing symbols for libswiftUIKit.dylib
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+2018-06-17 22:16:09 +0000   0 files...2018-06-17 22:16:09 +0000  1 file to consider
+2018-06-17 22:16:09 +0000  
+sent 90 bytes  received 20 bytes  220.00 bytes/sec
+total size is 770.64K  speedup is 7173.96
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:09 +0000  building file list ... 
+2018-06-17 22:16:09 +0000   0 files...2018-06-17 22:16:09 +0000  13 files to consider
+2018-06-17 22:16:09 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+2018-06-17 22:16:09 +0000  TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:09 +0000  
+2018-06-17 22:16:09 +0000  sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:09 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:09 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftUIKit.dylib'
+2018-06-17 22:16:10 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftUIKit.dylib [armv7, 0.007530 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftUIKit.dylib [armv7s, 0.007530 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftUIKit.dylib [arm64, 0.007530 seconds]:
+2018-06-17 22:16:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:10 +0000  Processing symbols for libswiftos.dylib
+2018-06-17 22:16:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:10 +0000  building file list ... 
+2018-06-17 22:16:10 +0000   0 files...1 file to consider
+2018-06-17 22:16:10 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:10 +0000  
+sent 87 bytes  received 20 bytes  214.00 bytes/sec
+total size is 435.89K  speedup is 4171.51
+2018-06-17 22:16:10 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '--link-dest' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/dSYMs/' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS'
+2018-06-17 22:16:10 +0000  building file list ... 
+ 0 files...2018-06-17 22:16:10 +0000  13 files to consider
+2018-06-17 22:16:10 +0000  ./
+TVAlert.framework.dSYM/
+TVAlert.framework.dSYM/Contents/
+TVAlert.framework.dSYM/Contents/Resources/
+TVAlert.framework.dSYM/Contents/Resources/DWARF/
+iSource.app.dSYM/
+iSource.app.dSYM/Contents/
+iSource.app.dSYM/Contents/Resources/
+iSource.app.dSYM/Contents/Resources/DWARF/
+2018-06-17 22:16:10 +0000  
+sent 448 bytes  received 98 bytes  1.07K bytes/sec
+total size is 2.72M  speedup is 5218.23
+2018-06-17 22:16:10 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:10 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftos.dylib'
+2018-06-17 22:16:10 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftos.dylib [armv7, 0.010643 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftos.dylib [armv7s, 0.010643 seconds]:
+/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/libswiftos.dylib [arm64, 0.010643 seconds]:
+2018-06-17 22:16:10 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-06-17 22:16:10 +0000  Excluding symbols for iSource.app
+2018-06-17 22:16:10 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-06-17 22:16:10 +0000  Running /usr/bin/ditto '-V' '/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/SwiftSupport' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/SwiftSupport'
+2018-06-17 22:16:10 +0000  >>> Copying /Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/SwiftSupport 
+copying file ./iphoneos/libswiftCore.dylib ... 
+2018-06-17 22:16:11 +0000  102190104 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-06-17 22:16:11 +0000  288869 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2018-06-17 22:16:11 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-06-17 22:16:11 +0000  1764939 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+2018-06-17 22:16:11 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-06-17 22:16:11 +0000  302301 bytes for ./iphoneos/libswiftCoreImage.dylib
+2018-06-17 22:16:11 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-06-17 22:16:11 +0000  801691 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-06-17 22:16:11 +0000  3459837 bytes for ./iphoneos/libswiftDispatch.dylib
+2018-06-17 22:16:11 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-06-17 22:16:11 +0000  41486819 bytes for ./iphoneos/libswiftFoundation.dylib
+copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-06-17 22:16:11 +0000  510611 bytes for ./iphoneos/libswiftMetal.dylib
+2018-06-17 22:16:12 +0000  copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+692593 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2018-06-17 22:16:12 +0000  598752 bytes for ./iphoneos/libswiftos.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-06-17 22:16:12 +0000  373669 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-06-17 22:16:12 +0000  1138426 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-06-17 22:16:12 +0000  /usr/bin/ditto exited with 0
+2018-06-17 22:16:12 +0000  Processing step: IDEDistributionAppThinningStep
+2018-06-17 22:16:12 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-06-17 22:16:12 +0000  Processing step: IDEDistributionODRStep
+2018-06-17 22:16:12 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe850c6f060 'org.cocoapods.TVAlert' '<DVTFilePath:0x7fe851784600:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/TVAlert.framework'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe85158ee20 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe84ffab8f0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCore.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe8510f4080 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe8495bf430:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe848994900 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe84893c8a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe8511b01e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe850d0e5a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe84ebb2e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe84987ab20:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe846e84b60 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe84984e150:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe84fb3da80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe84ef1a440:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe849866dc0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe84fe745e0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftMetal.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe84fd19de0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe8512da420:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe849b245e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe846fb4720:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe84a7e81f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe85115d2d0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-06-17 22:16:12 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fe84fe15e90 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe84897c7b0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftos.dylib'>'>
+2018-06-17 22:16:12 +0000  Running /usr/bin/xattr '-crs' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app'
+2018-06-17 22:16:14 +0000  /usr/bin/xattr exited with 0
+2018-06-17 22:16:14 +0000  Processing step: IDEDistributionCodesignStep
+2018-06-17 22:16:14 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe850c6f060 'org.cocoapods.TVAlert' '<DVTFilePath:0x7fe851784600:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/TVAlert.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe84ecc1d70>: {
+}
+2018-06-17 22:16:14 +0000  Entitlements for <IDEDistributionItem: 0x7fe850c6f060 'org.cocoapods.TVAlert' '<DVTFilePath:0x7fe851784600:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/TVAlert.framework'>'>: {
+}
+2018-06-17 22:16:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe850c6f060 'org.cocoapods.TVAlert' '<DVTFilePath:0x7fe851784600:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/TVAlert.framework'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsBxG7S6
+2018-06-17 22:16:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsBxG7S6' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/TVAlert.framework'
+2018-06-17 22:16:15 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/TVAlert.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.TVAlert]
+2018-06-17 22:16:15 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:15 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe85158ee20 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe84ffab8f0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe84fbe6560>: {
+}
+2018-06-17 22:16:15 +0000  Entitlements for <IDEDistributionItem: 0x7fe85158ee20 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe84ffab8f0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-06-17 22:16:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe85158ee20 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fe84ffab8f0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsi1CE6P
+2018-06-17 22:16:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsi1CE6P' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCore.dylib'
+2018-06-17 22:16:15 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-06-17 22:16:20 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-06-17 22:16:20 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe8510f4080 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe8495bf430:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe84965e380>: {
+}
+2018-06-17 22:16:20 +0000  Entitlements for <IDEDistributionItem: 0x7fe8510f4080 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe8495bf430:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-06-17 22:16:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe8510f4080 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fe8495bf430:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementslkXOIV
+2018-06-17 22:16:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementslkXOIV' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-06-17 22:16:20 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-06-17 22:16:20 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-06-17 22:16:20 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe848994900 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe84893c8a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe84ec32ca0>: {
+}
+2018-06-17 22:16:20 +0000  Entitlements for <IDEDistributionItem: 0x7fe848994900 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe84893c8a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-06-17 22:16:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe848994900 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fe84893c8a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsF3g86T
+2018-06-17 22:16:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsF3g86T' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-06-17 22:16:21 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-06-17 22:16:21 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-06-17 22:16:21 +0000  
+2018-06-17 22:16:21 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe8511b01e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe850d0e5a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe84fdbc0f0>: {
+}
+2018-06-17 22:16:21 +0000  Entitlements for <IDEDistributionItem: 0x7fe8511b01e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe850d0e5a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-06-17 22:16:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe8511b01e0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fe850d0e5a0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsZimoQi
+2018-06-17 22:16:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsZimoQi' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreImage.dylib'
+2018-06-17 22:16:21 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-06-17 22:16:21 +0000  
+2018-06-17 22:16:21 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-06-17 22:16:21 +0000  
+2018-06-17 22:16:21 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe84ebb2e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe84987ab20:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe851136010>: {
+}
+2018-06-17 22:16:21 +0000  Entitlements for <IDEDistributionItem: 0x7fe84ebb2e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe84987ab20:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-06-17 22:16:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe84ebb2e30 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fe84987ab20:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsbrKW4u
+2018-06-17 22:16:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsbrKW4u' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDarwin.dylib'
+2018-06-17 22:16:22 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-06-17 22:16:22 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-06-17 22:16:22 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe846e84b60 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe84984e150:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe8496bb2c0>: {
+}
+2018-06-17 22:16:22 +0000  Entitlements for <IDEDistributionItem: 0x7fe846e84b60 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe84984e150:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-06-17 22:16:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe846e84b60 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fe84984e150:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementshmZiUb
+2018-06-17 22:16:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementshmZiUb' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDispatch.dylib'
+2018-06-17 22:16:22 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-06-17 22:16:22 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-06-17 22:16:22 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:22 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe84fb3da80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe84ef1a440:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe84e809ae0>: {
+}
+2018-06-17 22:16:22 +0000  Entitlements for <IDEDistributionItem: 0x7fe84fb3da80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe84ef1a440:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-06-17 22:16:22 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe84fb3da80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fe84ef1a440:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlements1934xj
+2018-06-17 22:16:22 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlements1934xj' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftFoundation.dylib'
+2018-06-17 22:16:22 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-06-17 22:16:23 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-06-17 22:16:23 +0000  
+2018-06-17 22:16:23 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:23 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe849866dc0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe84fe745e0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe8496def60>: {
+}
+2018-06-17 22:16:23 +0000  Entitlements for <IDEDistributionItem: 0x7fe849866dc0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe84fe745e0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-06-17 22:16:23 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe849866dc0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fe84fe745e0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsoaOQNC
+2018-06-17 22:16:23 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsoaOQNC' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftMetal.dylib'
+2018-06-17 22:16:24 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-06-17 22:16:24 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-06-17 22:16:24 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe84fd19de0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe8512da420:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe8499d5010>: {
+}
+2018-06-17 22:16:24 +0000  Entitlements for <IDEDistributionItem: 0x7fe84fd19de0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe8512da420:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-06-17 22:16:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe84fd19de0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fe8512da420:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsfVU3qL
+2018-06-17 22:16:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsfVU3qL' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftObjectiveC.dylib'
+2018-06-17 22:16:24 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-06-17 22:16:24 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-06-17 22:16:24 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:24 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe849b245e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe846fb4720:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe848a191b0>: {
+}
+2018-06-17 22:16:24 +0000  Entitlements for <IDEDistributionItem: 0x7fe849b245e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe846fb4720:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-06-17 22:16:24 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe849b245e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fe846fb4720:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsTq2JXR
+2018-06-17 22:16:24 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsTq2JXR' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftQuartzCore.dylib'
+2018-06-17 22:16:25 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-06-17 22:16:25 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-06-17 22:16:25 +0000  
+2018-06-17 22:16:25 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:25 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe84a7e81f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe85115d2d0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe84e82dc60>: {
+}
+2018-06-17 22:16:25 +0000  Entitlements for <IDEDistributionItem: 0x7fe84a7e81f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe85115d2d0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-06-17 22:16:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe84a7e81f0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fe85115d2d0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlements8sTzwl
+2018-06-17 22:16:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlements8sTzwl' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftUIKit.dylib'
+2018-06-17 22:16:25 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-06-17 22:16:26 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-06-17 22:16:26 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:26 +0000  
+2018-06-17 22:16:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe84fe15e90 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe84897c7b0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe848a363b0>: {
+}
+2018-06-17 22:16:26 +0000  Entitlements for <IDEDistributionItem: 0x7fe84fe15e90 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe84897c7b0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-06-17 22:16:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe84fe15e90 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fe84897c7b0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsBrEuuU
+2018-06-17 22:16:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsBrEuuU' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftos.dylib'
+2018-06-17 22:16:26 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-06-17 22:16:26 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-06-17 22:16:26 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:26 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fe84882fd10 'pro.wteam.iSource' '<DVTFilePath:0x7fe850bf8cf0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fe8515a81c0>: {
+}
+2018-06-17 22:16:26 +0000  Entitlements for <IDEDistributionItem: 0x7fe84882fd10 'pro.wteam.iSource' '<DVTFilePath:0x7fe850bf8cf0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app'>'>: {
+    "application-identifier" = "PW6F3A7VY7.pro.wteam.iSource";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = PW6F3A7VY7;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "PW6F3A7VY7.pro.wteam.iSource"
+    );
+}
+2018-06-17 22:16:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7fe84882fd10 'pro.wteam.iSource' '<DVTFilePath:0x7fe850bf8cf0:'/Users/user/Library/Developer/Xcode/Archives/2018-06-17/iSource 6-17-18, 5.43 PM.xcarchive/Products/Applications/iSource.app'>'> to: /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsnbTltI
+2018-06-17 22:16:26 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '252595F121DB03BB6A183F6741AB1CE8804392B5' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/entitlementsnbTltI' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app'
+2018-06-17 22:16:27 +0000  /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root/Payload/iSource.app: signed app bundle with Mach-O universal (armv7 arm64) [pro.wteam.iSource]
+2018-06-17 22:16:28 +0000  /usr/bin/codesign exited with 0
+2018-06-17 22:16:28 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-17 22:16:28 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-06-17 22:16:28 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Symbols' '--link-dest' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root'
+2018-06-17 22:16:28 +0000  building file list ... 
+2018-06-17 22:16:28 +0000   0 files...2018-06-17 22:16:28 +0000  37 files to consider
+2018-06-17 22:16:28 +0000  Symbols/
+2018-06-17 22:16:28 +0000  
+sent 1.98K bytes  received 26 bytes  4.02K bytes/sec
+total size is 18.65M  speedup is 9501.88
+2018-06-17 22:16:28 +0000  /usr/bin/rsync exited with 0
+2018-06-17 22:16:28 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root' '/var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Packages/iSource.ipa'
+2018-06-17 22:16:28 +0000  >>> Copying /var/folders/sg/0yd_0m2s28l4yzc10h42qff80000gn/T/XcodeDistPipeline.KbS/Root 
+2018-06-17 22:16:28 +0000  copying file ./BCSymbolMaps/37AE62B6-761A-326E-AB25-FD6930159C6C.bcsymbolmap ... 
+2018-06-17 22:16:28 +0000  81215 bytes for ./BCSymbolMaps/37AE62B6-761A-326E-AB25-FD6930159C6C.bcsymbolmap
+copying file ./BCSymbolMaps/985920A5-DB1F-3207-8DAA-7B7561AA1403.bcsymbolmap ... 
+78207 bytes for ./BCSymbolMaps/985920A5-DB1F-3207-8DAA-7B7561AA1403.bcsymbolmap
+copying file ./BCSymbolMaps/C630FC67-A036-3761-B22C-9201607ADE18.bcsymbolmap ... 
+50907 bytes for ./BCSymbolMaps/C630FC67-A036-3761-B22C-9201607ADE18.bcsymbolmap
+copying file ./BCSymbolMaps/D231B227-2DF7-3D8C-A4FE-F9DC7E6913B9.bcsymbolmap ... 
+50888 bytes for ./BCSymbolMaps/D231B227-2DF7-3D8C-A4FE-F9DC7E6913B9.bcsymbolmap
+copying file ./Payload/iSource.app/_CodeSignature/CodeResources ... 
+16205 bytes for ./Payload/iSource.app/_CodeSignature/CodeResources
+copying file ./Payload/iSource.app/AppIcon20x20@2x.png ... 
+2608 bytes for ./Payload/iSource.app/AppIcon20x20@2x.png
+copying file ./Payload/iSource.app/AppIcon20x20@2x~ipad.png ... 
+2018-06-17 22:16:28 +0000  2608 bytes for ./Payload/iSource.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/iSource.app/AppIcon20x20@3x.png ... 
+4421 bytes for ./Payload/iSource.app/AppIcon20x20@3x.png
+copying file ./Payload/iSource.app/AppIcon20x20~ipad.png ... 
+1068 bytes for ./Payload/iSource.app/AppIcon20x20~ipad.png
+copying file ./Payload/iSource.app/AppIcon29x29@2x.png ... 
+4246 bytes for ./Payload/iSource.app/AppIcon29x29@2x.png
+copying file ./Payload/iSource.app/AppIcon29x29@2x~ipad.png ... 
+4246 bytes for ./Payload/iSource.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/iSource.app/AppIcon29x29@3x.png ... 
+2018-06-17 22:16:28 +0000  8228 bytes for ./Payload/iSource.app/AppIcon29x29@3x.png
+copying file ./Payload/iSource.app/AppIcon29x29~ipad.png ... 
+1647 bytes for ./Payload/iSource.app/AppIcon29x29~ipad.png
+copying file ./Payload/iSource.app/AppIcon40x40@2x.png ... 
+2018-06-17 22:16:28 +0000  7148 bytes for ./Payload/iSource.app/AppIcon40x40@2x.png
+copying file ./Payload/iSource.app/AppIcon40x40@2x~ipad.png ... 
+7148 bytes for ./Payload/iSource.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/iSource.app/AppIcon40x40@3x.png ... 
+13040 bytes for ./Payload/iSource.app/AppIcon40x40@3x.png
+copying file ./Payload/iSource.app/AppIcon40x40~ipad.png ... 
+2018-06-17 22:16:28 +0000  2608 bytes for ./Payload/iSource.app/AppIcon40x40~ipad.png
+copying file ./Payload/iSource.app/AppIcon60x60@2x.png ... 
+13040 bytes for ./Payload/iSource.app/AppIcon60x60@2x.png
+copying file ./Payload/iSource.app/AppIcon60x60@3x.png ... 
+2018-06-17 22:16:28 +0000  25892 bytes for ./Payload/iSource.app/AppIcon60x60@3x.png
+copying file ./Payload/iSource.app/AppIcon76x76@2x~ipad.png ... 
+2018-06-17 22:16:28 +0000  19574 bytes for ./Payload/iSource.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/iSource.app/AppIcon76x76~ipad.png ... 
+6587 bytes for ./Payload/iSource.app/AppIcon76x76~ipad.png
+copying file ./Payload/iSource.app/AppIcon83.5x83.5@2x~ipad.png ... 
+22849 bytes for ./Payload/iSource.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/iSource.app/archived-expanded-entitlements.xcent ... 
+372 bytes for ./Payload/iSource.app/archived-expanded-entitlements.xcent
+copying file ./Payload/iSource.app/Assets.car ... 
+2018-06-17 22:16:28 +0000  817448 bytes for ./Payload/iSource.app/Assets.car
+2018-06-17 22:16:28 +0000  copying file ./Payload/iSource.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+3168 bytes for ./Payload/iSource.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/iSource.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/iSource.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/iSource.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/iSource.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/iSource.app/Base.lproj/Main.storyboardc/75W-GM-bdw-view-J41-02-ixP.nib ... 
+15190 bytes for ./Payload/iSource.app/Base.lproj/Main.storyboardc/75W-GM-bdw-view-J41-02-ixP.nib
+copying file ./Payload/iSource.app/Base.lproj/Main.storyboardc/Info.plist ... 
+349 bytes for ./Payload/iSource.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/iSource.app/Base.lproj/Main.storyboardc/UITabBarController-xD0-P1-9XN.nib ... 
+3189 bytes for ./Payload/iSource.app/Base.lproj/Main.storyboardc/UITabBarController-xD0-P1-9XN.nib
+copying file ./Payload/iSource.app/Base.lproj/Main.storyboardc/UITableViewController-w7q-Ob-qK2.nib ... 
+984 bytes for ./Payload/iSource.app/Base.lproj/Main.storyboardc/UITableViewController-w7q-Ob-qK2.nib
+copying file ./Payload/iSource.app/Base.lproj/Main.storyboardc/w7q-Ob-qK2-view-0XG-KN-FMS.nib ... 
+8006 bytes for ./Payload/iSource.app/Base.lproj/Main.storyboardc/w7q-Ob-qK2-view-0XG-KN-FMS.nib
+copying file ./Payload/iSource.app/embedded.mobileprovision ... 
+9466 bytes for ./Payload/iSource.app/embedded.mobileprovision
+copying file ./Payload/iSource.app/Frameworks/libswiftCore.dylib ... 
+2018-06-17 22:16:34 +0000  68839264 bytes for ./Payload/iSource.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-06-17 22:16:34 +0000  258016 bytes for ./Payload/iSource.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-06-17 22:16:34 +0000  1269152 bytes for ./Payload/iSource.app/Frameworks/libswiftCoreGraphics.dylib
+2018-06-17 22:16:34 +0000  copying file ./Payload/iSource.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-06-17 22:16:34 +0000  258576 bytes for ./Payload/iSource.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftDarwin.dylib ... 
+2018-06-17 22:16:34 +0000  599584 bytes for ./Payload/iSource.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftDispatch.dylib ... 
+2018-06-17 22:16:34 +0000  2441056 bytes for ./Payload/iSource.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftFoundation.dylib ... 
+2018-06-17 22:16:36 +0000  27763184 bytes for ./Payload/iSource.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftMetal.dylib ... 
+2018-06-17 22:16:36 +0000  399696 bytes for ./Payload/iSource.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-06-17 22:16:36 +0000  506096 bytes for ./Payload/iSource.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftos.dylib ... 
+446704 bytes for ./Payload/iSource.app/Frameworks/libswiftos.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftQuartzCore.dylib ... 
+311280 bytes for ./Payload/iSource.app/Frameworks/libswiftQuartzCore.dylib
+copying file ./Payload/iSource.app/Frameworks/libswiftUIKit.dylib ... 
+2018-06-17 22:16:36 +0000  789488 bytes for ./Payload/iSource.app/Frameworks/libswiftUIKit.dylib
+2018-06-17 22:16:36 +0000  copying file ./Payload/iSource.app/Frameworks/TVAlert.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/iSource.app/Frameworks/TVAlert.framework/_CodeSignature/CodeResources
+copying file ./Payload/iSource.app/Frameworks/TVAlert.framework/Info.plist ... 
+737 bytes for ./Payload/iSource.app/Frameworks/TVAlert.framework/Info.plist
+copying file ./Payload/iSource.app/Frameworks/TVAlert.framework/TVAlert ... 
+2018-06-17 22:16:37 +0000  935744 bytes for ./Payload/iSource.app/Frameworks/TVAlert.framework/TVAlert
+2018-06-17 22:16:37 +0000  copying file ./Payload/iSource.app/Info.plist ... 
+1657 bytes for ./Payload/iSource.app/Info.plist
+copying file ./Payload/iSource.app/iSource ... 
+2018-06-17 22:16:37 +0000  720752 bytes for ./Payload/iSource.app/iSource
+copying file ./Payload/iSource.app/PkgInfo ... 
+2018-06-17 22:16:37 +0000  8 bytes for ./Payload/iSource.app/PkgInfo
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-06-17 22:16:42 +0000  68838832 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-06-17 22:16:42 +0000  257584 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-06-17 22:16:42 +0000  1268736 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+2018-06-17 22:16:42 +0000  258160 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-06-17 22:16:42 +0000  599168 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-06-17 22:16:42 +0000  2440624 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-06-17 22:16:44 +0000  27746368 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-06-17 22:16:44 +0000  399264 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-06-17 22:16:44 +0000  505680 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-06-17 22:16:44 +0000  446288 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-06-17 22:16:44 +0000  310864 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-06-17 22:16:44 +0000  789072 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+2018-06-17 22:16:44 +0000  copying file ./Symbols/0688048C-C8B0-38DF-9C3B-7974A1EBD9E4.symbols ... 
+2018-06-17 22:16:44 +0000  55696 bytes for ./Symbols/0688048C-C8B0-38DF-9C3B-7974A1EBD9E4.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/0A2B3149-C0C8-34FB-8E0D-ADE27625A6A2.symbols ... 
+2018-06-17 22:16:44 +0000  37952 bytes for ./Symbols/0A2B3149-C0C8-34FB-8E0D-ADE27625A6A2.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/0B8AA04B-74BC-38BF-BD6F-895D9F96850E.symbols ... 
+2018-06-17 22:16:44 +0000  38552 bytes for ./Symbols/0B8AA04B-74BC-38BF-BD6F-895D9F96850E.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/0EC3AB9A-D4CE-3B63-A2AF-8872C7268DD2.symbols ... 
+2018-06-17 22:16:44 +0000  12128 bytes for ./Symbols/0EC3AB9A-D4CE-3B63-A2AF-8872C7268DD2.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/19839AB0-4E91-3B65-98FE-BFC72D158F74.symbols ... 
+2018-06-17 22:16:44 +0000  96608 bytes for ./Symbols/19839AB0-4E91-3B65-98FE-BFC72D158F74.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/1BD1C309-A736-3946-864D-E1061B2DCB1E.symbols ... 
+2018-06-17 22:16:44 +0000  55696 bytes for ./Symbols/1BD1C309-A736-3946-864D-E1061B2DCB1E.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/20EC95E3-B8F4-3324-BACB-478BC6D7C2BD.symbols ... 
+2018-06-17 22:16:44 +0000  13232 bytes for ./Symbols/20EC95E3-B8F4-3324-BACB-478BC6D7C2BD.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/29D0F78B-257B-32F7-BB43-41B2C9751162.symbols ... 
+2352 bytes for ./Symbols/29D0F78B-257B-32F7-BB43-41B2C9751162.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/2EF7D5E4-1BAC-3D5A-9522-3EB738662406.symbols ... 
+2018-06-17 22:16:44 +0000  12304 bytes for ./Symbols/2EF7D5E4-1BAC-3D5A-9522-3EB738662406.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/3A708B33-F4DE-362F-B769-CFBDFF462A35.symbols ... 
+2018-06-17 22:16:44 +0000  1595848 bytes for ./Symbols/3A708B33-F4DE-362F-B769-CFBDFF462A35.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/4455217F-C1A0-30E6-A394-7CA00C8008B9.symbols ... 
+2018-06-17 22:16:44 +0000  24384 bytes for ./Symbols/4455217F-C1A0-30E6-A394-7CA00C8008B9.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/47F791B0-50C7-3E18-B842-7C2E86DEC6C0.symbols ... 
+2018-06-17 22:16:44 +0000  38552 bytes for ./Symbols/47F791B0-50C7-3E18-B842-7C2E86DEC6C0.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/4AD01A7C-D52A-3FEF-B87B-8ADB5E65BFA0.symbols ... 
+2018-06-17 22:16:44 +0000  13056 bytes for ./Symbols/4AD01A7C-D52A-3FEF-B87B-8ADB5E65BFA0.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/5BCB6005-A832-3842-887E-311F8FFF7F3F.symbols ... 
+2018-06-17 22:16:44 +0000  13056 bytes for ./Symbols/5BCB6005-A832-3842-887E-311F8FFF7F3F.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/6296CF8D-A0E4-3A0D-9F67-0FACC01AC40C.symbols ... 
+2018-06-17 22:16:44 +0000  2352 bytes for ./Symbols/6296CF8D-A0E4-3A0D-9F67-0FACC01AC40C.symbols
+copying file ./Symbols/669D67CE-A50D-33F2-A136-5CC770BE155D.symbols ... 
+2018-06-17 22:16:44 +0000  7384 bytes for ./Symbols/669D67CE-A50D-33F2-A136-5CC770BE155D.symbols
+copying file ./Symbols/6B675DA0-5BE8-3835-AFE7-31BCB0AB0A93.symbols ... 
+2018-06-17 22:16:44 +0000  4443392 bytes for ./Symbols/6B675DA0-5BE8-3835-AFE7-31BCB0AB0A93.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/71EB68D6-724C-3CED-A52F-6260DF1BFC0E.symbols ... 
+2018-06-17 22:16:44 +0000  234128 bytes for ./Symbols/71EB68D6-724C-3CED-A52F-6260DF1BFC0E.symbols
+copying file ./Symbols/7A6C628E-C037-3BAA-99A4-7B65BF23F9EA.symbols ... 
+2018-06-17 22:16:44 +0000  1592304 bytes for ./Symbols/7A6C628E-C037-3BAA-99A4-7B65BF23F9EA.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/8F05AF83-ACCB-3468-96B3-5D9FBCCB678B.symbols ... 
+2018-06-17 22:16:44 +0000  23952 bytes for ./Symbols/8F05AF83-ACCB-3468-96B3-5D9FBCCB678B.symbols
+2018-06-17 22:16:44 +0000  copying file ./Symbols/9399792D-76DE-3474-8B44-96D5D3015EB7.symbols ... 
+2018-06-17 22:16:44 +0000  4425016 bytes for ./Symbols/9399792D-76DE-3474-8B44-96D5D3015EB7.symbols
+copying file ./Symbols/964D2D36-EE64-3922-AD7F-5E03804DA319.symbols ... 
+2018-06-17 22:16:45 +0000  4443976 bytes for ./Symbols/964D2D36-EE64-3922-AD7F-5E03804DA319.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/97CC8CE2-958C-3A15-8B2E-C20D8736A5C5.symbols ... 
+2018-06-17 22:16:45 +0000  234272 bytes for ./Symbols/97CC8CE2-958C-3A15-8B2E-C20D8736A5C5.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/9AF40A87-C38A-3111-AFD1-C247EA11F6A0.symbols ... 
+2018-06-17 22:16:45 +0000  232040 bytes for ./Symbols/9AF40A87-C38A-3111-AFD1-C247EA11F6A0.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/A4CA2C4A-E953-3A43-A2CE-BC7E6D9D59E6.symbols ... 
+2018-06-17 22:16:45 +0000  7656 bytes for ./Symbols/A4CA2C4A-E953-3A43-A2CE-BC7E6D9D59E6.symbols
+copying file ./Symbols/A86469E0-988B-3731-8C5A-93FFFFF4D558.symbols ... 
+2018-06-17 22:16:45 +0000  23952 bytes for ./Symbols/A86469E0-988B-3731-8C5A-93FFFFF4D558.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/B077EDDE-C3A8-319D-8AD2-E70E3D7E8369.symbols ... 
+2736 bytes for ./Symbols/B077EDDE-C3A8-319D-8AD2-E70E3D7E8369.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/BBDABE60-3B44-3238-AFFC-82B59BCB0D17.symbols ... 
+2018-06-17 22:16:45 +0000  2736 bytes for ./Symbols/BBDABE60-3B44-3238-AFFC-82B59BCB0D17.symbols
+copying file ./Symbols/BD876457-63BB-3D4A-91EA-01DDB74D22BD.symbols ... 
+2018-06-17 22:16:45 +0000  2824 bytes for ./Symbols/BD876457-63BB-3D4A-91EA-01DDB74D22BD.symbols
+copying file ./Symbols/BEAE879C-0989-377F-A240-C66C1ECB5CA6.symbols ... 
+2018-06-17 22:16:45 +0000  96544 bytes for ./Symbols/BEAE879C-0989-377F-A240-C66C1ECB5CA6.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/BFE40B3D-FE18-37BB-B500-9F381025E07F.symbols ... 
+2456 bytes for ./Symbols/BFE40B3D-FE18-37BB-B500-9F381025E07F.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/C260F959-AC44-39B0-A834-D5DE99D6C799.symbols ... 
+2018-06-17 22:16:45 +0000  12304 bytes for ./Symbols/C260F959-AC44-39B0-A834-D5DE99D6C799.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/C642D694-42C3-3F92-AE93-21CB863D89F0.symbols ... 
+2018-06-17 22:16:45 +0000  55664 bytes for ./Symbols/C642D694-42C3-3F92-AE93-21CB863D89F0.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/DC3BBFE6-5D4F-3329-B275-4894140BA397.symbols ... 
+2018-06-17 22:16:45 +0000  96392 bytes for ./Symbols/DC3BBFE6-5D4F-3329-B275-4894140BA397.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/E23DA477-3010-39FE-BCD2-D28CD9CF0F54.symbols ... 
+2018-06-17 22:16:45 +0000  1595992 bytes for ./Symbols/E23DA477-3010-39FE-BCD2-D28CD9CF0F54.symbols
+2018-06-17 22:16:45 +0000  copying file ./Symbols/EEFCBBC7-BA36-3752-A08C-A401C4A9DD06.symbols ... 
+2018-06-17 22:16:45 +0000  7384 bytes for ./Symbols/EEFCBBC7-BA36-3752-A08C-A401C4A9DD06.symbols
+2018-06-17 22:16:45 +0000  /usr/bin/ditto exited with 0
+2018-06-17 22:16:45 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-06-17 22:16:45 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

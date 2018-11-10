@@ -6,6 +6,7 @@
 //  Copyright © 2018 MasonD3V. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 @UIApplicationMain
@@ -16,7 +17,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        print(url)
+        
+        /*if UserDefaults.standard.value(forKey: "udid") != nil {
+            UserDefaults.standard.set("\(url)", forKey: "udid")
+        }*/
+        
+        if UserDefaults.standard.value(forKey: "udid") == nil {
+            UserDefaults.standard.set("\(url)", forKey: "udid")
+        }
+        
+        return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
