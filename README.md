@@ -9,7 +9,7 @@
 #### TVAlert
 
 ## Warning
-#### This application is slightly maintained by the developer. Updates may come out at random times.
+#### This application is no longer maintained by the developer.
 
 ## License
 #### This software is licensed under the MIT License, detailed in the file LICENSE
